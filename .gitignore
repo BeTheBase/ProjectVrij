@@ -1,0 +1,35 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+.vs/Supercharger/
+
+GGJ/.vs/GGJ/v15/Server/sqlite3/db.lock
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide-shm
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide-wal
+GGJ/.vs/GGJ/v15/Server/sqlite3/db.lock
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide-shm
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide-wal
+*.ide
+GGJ/.vs/GGJ/v15/Server/sqlite3/db.lock
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide-shm
+GGJ/.vs/GGJ/v15/Server/sqlite3/storage.ide-wal
