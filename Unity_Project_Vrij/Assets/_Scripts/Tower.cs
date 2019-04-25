@@ -6,10 +6,10 @@ namespace Towers
 {
     public class Tower : TowerBase
     {
-        private float attackPower;
-        private float attackRange;
-        private float costAmount;
-        private float coolDown;
+        private int attackPower;
+        private int attackRange;
+        private int costAmount;
+        private int coolDown;
         private Transform targetEnemy;
         private float timeStamp = 0.0f;
         private GameObject towerPrefab;
@@ -32,7 +32,7 @@ namespace Towers
 
         public void FireProjectile()
         {
-            Instantiate(TowerProjectile, transform.position + Vector3.up, transform.rotation);
+            Instantiate(TowerProjectile, transform.forward, transform.rotation);
         }
 
         private void Update()

@@ -6,10 +6,10 @@ namespace Towers
 {
     public abstract class TowerBase : MonoBehaviour
     {
-        public float AttackPower;
-        public float AttackRange;
-        public float CostAmount;
-        public float CoolDown;
+        public int AttackPower;
+        public int AttackRange;
+        public int CostAmount;
+        public int CoolDown;
         public GameObject TowerPrefab { get; set; }
 
         public void Init()

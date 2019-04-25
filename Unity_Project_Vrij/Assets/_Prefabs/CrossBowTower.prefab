@@ -104,9 +104,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a5d315699f5e46a69e58a18eeeaac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackPower: 11
-  AttackRange: 10
-  CostAmount: 90
-  CoolDown: 1
-  TowerProjectile: {fileID: 7118267656088469600, guid: ea5de4039643d8642bbdfd501faa54e3,
-    type: 3}
+  TowerProjectile: {fileID: 0}

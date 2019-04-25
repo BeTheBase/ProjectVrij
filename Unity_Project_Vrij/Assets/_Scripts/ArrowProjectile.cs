@@ -15,18 +15,11 @@ namespace Projectiles
             targetEnemy = GameObject.FindGameObjectWithTag("Enemy").transform;
         }
 
-        private void FixedUpdate()
+        private void Update()
         {
             transform.LookAt(targetEnemy);
             GetComponent<Rigidbody>().velocity = transform.forward * ProjectileSpeed;
-        }
 
-        private void OnCollisionEnter(Collision other)
-        {
-            if(other.gameObject.tag == "Enemy")
-            {
-                Destroy(gameObject);
-            }
         }
     }
 }
