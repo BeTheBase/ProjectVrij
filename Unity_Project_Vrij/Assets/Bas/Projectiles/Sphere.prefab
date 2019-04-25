@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8287103005961071428
+--- !u!1 &7722421783750211898
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8287103005961071455}
-  - component: {fileID: 8287103005961071448}
-  - component: {fileID: 8287103005961071449}
-  - component: {fileID: 8287103005961071450}
-  - component: {fileID: 8287103005961071451}
+  - component: {fileID: 6058565512258944912}
+  - component: {fileID: 7048484074072205634}
+  - component: {fileID: 3943233502168782914}
+  - component: {fileID: 828333205281436925}
+  - component: {fileID: 2291808691183086813}
+  - component: {fileID: 7722421783750211899}
   m_Layer: 0
-  m_Name: CrossBowTower
-  m_TagString: Tower
+  m_Name: Sphere
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8287103005961071455
+--- !u!4 &6058565512258944912
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287103005961071428}
+  m_GameObject: {fileID: 7722421783750211898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.13, y: 0.53, z: -3.1}
+  m_LocalPosition: {x: 946.6963, y: 324.7595, z: 321.43176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8287103005961071448
+--- !u!33 &7048484074072205634
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287103005961071428}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &8287103005961071449
+  m_GameObject: {fileID: 7722421783750211898}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3943233502168782914
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287103005961071428}
+  m_GameObject: {fileID: 7722421783750211898}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 998ba6f01587ab243a1ef62343d9533d, type: 2}
+  - {fileID: 2100000, guid: aea6d5afe517a21489e52e133ca98d00, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,34 +80,45 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8287103005961071450
-BoxCollider:
+--- !u!135 &828333205281436925
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287103005961071428}
+  m_GameObject: {fileID: 7722421783750211898}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8287103005961071451
+--- !u!54 &2291808691183086813
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722421783750211898}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7722421783750211899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287103005961071428}
+  m_GameObject: {fileID: 7722421783750211898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 325a5d315699f5e46a69e58a18eeeaac, type: 3}
+  m_Script: {fileID: 11500000, guid: b85df7a2d9398f8489ab12587236adaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackPower: 11
-  AttackRange: 10
-  CostAmount: 90
-  CoolDown: 1
-  TowerProjectile: {fileID: 7118267656088469600, guid: ea5de4039643d8642bbdfd501faa54e3,
-    type: 3}
+  ProjectileSpeed: 5
