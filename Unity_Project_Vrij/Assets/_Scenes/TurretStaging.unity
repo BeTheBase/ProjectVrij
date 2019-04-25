@@ -754,6 +754,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2102072987}
+    - target: {fileID: 3387826513024288590, guid: ef3ff9faef7fae54a9f7ae7275b5936e,
+        type: 3}
+      propertyPath: ArrowTowerUpgradeMesh
+      value: 
+      objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef3ff9faef7fae54a9f7ae7275b5936e, type: 3}
 --- !u!1001 &3703737441773260626
