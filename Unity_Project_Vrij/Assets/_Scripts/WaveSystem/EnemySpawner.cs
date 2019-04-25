@@ -6,18 +6,25 @@ using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour {
 
-    public static int EnemiesAlive = 0;
+    public static EnemySpawner Instance;
+
+    public int EnemiesAlive = 0;
 
     public Wave[] waves;
 
     public static bool Spawning = true;
 
-    public static int enemiesToSpawn;
+    public int enemiesToSpawn;
 
     public static int waveIndex = 0;
 
     ObjectPooler objectPooler;
     public List<Vector3> spawnPoints;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     // Use this for initialization
     void Start ()
@@ -27,10 +34,9 @@ public class EnemySpawner : MonoBehaviour {
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Return) && waveIndex < waves.Length && enemiesToSpawn == 0 && EnemiesAlive == 0)
+        if (Input.GetKeyDown(KeyCode.Return) && waveIndex < waves.Length && enemiesToSpawn == 0 && EnemiesAlive == 0)
         {
-            print(waveIndex);
-            print(waves.Length);
+            print("Wave: " + waveIndex);
             StartCoroutine(SpawnWave());
         }
     }
