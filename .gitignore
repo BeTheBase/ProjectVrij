@@ -48,5 +48,10 @@ Unity_Project_Vrij/Assets/_Prefabs.meta
 Unity_Project_Vrij/Assets/_Materials.meta
 Unity_Project_Vrij/.vs/Unity_Project_Vrij/v15/Server/sqlite3/storage.ide-wal
 Unity_Project_Vrij/.vs/Unity_Project_Vrij/v15/Server/sqlite3/storage.ide-shm
-Unity_Project_Vrij/.vs/Unity_Project_Vrij/v15/Server/sqlite3/storage.ide-shm
-Unity_Project_Vrij/.vs/Unity_Project_Vrij/v15/Server/sqlite3/storage.ide-wal
+Unity_Project_Vrij/ProjectSettings/TagManager.asset
+Unity_Project_Vrij/Assets/_Scenes/WaveTest.unity.meta
+Unity_Project_Vrij/Assets/_Scripts/ObjectPooler.cs.meta
+Unity_Project_Vrij/Assets/_Scripts/WaveSystem.meta
+Unity_Project_Vrij/Assets/_Scripts/WaveSystem/EnemySpawner.cs.meta
+Unity_Project_Vrij/ProjectSettings/ProjectVersion.txt
+
